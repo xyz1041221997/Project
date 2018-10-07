@@ -27,4 +27,8 @@ public void setName(String name) {
 public String toString() {
 	return "Category [id=" + id + ", name=" + name + "]";
 }
+// 添加了新方法
+public void newway() {
+	System.out.println("这是一个新方法");
+}
 }
